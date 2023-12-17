@@ -7,12 +7,12 @@ return {
         show_hidden_count = true,
         hide_dotfiles = false,
         hide_gitignored = true,
-        hide_by_name = {
-          -- '.git',
-          -- '.DS_Store',
-          -- 'thumbs.db',
-        },
+        hide_by_name = {},
         never_show = {},
+      },
+      follow_current_file = {
+        enabled = false,
+        leave_dirs_open = false,
       },
     },
   },
