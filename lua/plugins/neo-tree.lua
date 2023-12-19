@@ -15,5 +15,12 @@ return {
         leave_dirs_open = false,
       },
     },
+    buffers = {
+      --  bind_to_cwd = true,
+      follow_current_file = {
+        enabled = false,
+        leave_dirs_open = false,
+      },
+    },
   },
 }
