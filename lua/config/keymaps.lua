@@ -16,3 +16,9 @@ vim.keymap.set("n", "<leader>k", ":m .-2<CR>") -- move the current line up one
 vim.keymap.set("n", "<leader>j", ":m .+1<CR>") -- move the current line down one
 
 vim.keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>") -- find text in the project
+
+-- Navigate split panes using arrow keys
+vim.keymap.set("n", "<leader><Left>", "<C-w>h", { silent = true })
+vim.keymap.set("n", "<leader><Right>", "<C-w>l", { silent = true })
+vim.keymap.set("n", "<leader><Up>", "<C-w>k", { silent = true })
+vim.keymap.set("n", "<leader><Down>", "<C-w>j", { silent = true })
