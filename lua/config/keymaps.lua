@@ -3,6 +3,7 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("i", "jk", "<ESC>") -- exit insert mode
+
 vim.keymap.set("n", "<leader>nh", ":nohl<CR>") -- clear search history after enter
 vim.keymap.set("n", "<C-f>", "<C-f>zz") -- center cursor when half-paging down
 vim.keymap.set("n", "<C-b>", "<C-b>zz") -- center cursor when half-paging up
